@@ -6,13 +6,12 @@
 
 body {
   background-color: #0c0c38;
-  margin: 0;
   font-family: 'Courier New', Courier, monospace;
   color: #0c0c38;
 }
 
 a {
-  text-decoration: underline;
+  color: #0c0c38;
 }
 
 .title {
@@ -38,17 +37,16 @@ a {
 }
 
 .parent-container {
-  padding-left: 1em;
-  position: relative;
-  margin: 0 auto;
   max-width: 1000px;
   width: 90%;
   height: 100vh;
-  display: grid;
   padding: 2em;
+  padding-left: 4em;
+  margin: 0 auto;
+  position: relative;
+  display: grid;
   grid-template-columns: 50% 50%;
-  /*grid-template-columns: 1fr 1fr;*/
-  column-gap: 7em;
+  column-gap: 6em;
   background-color: #ffffce;
 }
 
@@ -63,5 +61,4 @@ a {
   padding-top: 0em;
   padding-left: 1em;
   line-height: 1.6;
-  /*overflow-wrap: break-word;*/
 }
